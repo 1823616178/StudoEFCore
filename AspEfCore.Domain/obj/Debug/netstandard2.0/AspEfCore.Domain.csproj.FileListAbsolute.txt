@@ -7,3 +7,12 @@ C:\Users\lx182\source\repos\AspEfCore\AspEfCore.Domain\obj\Debug\netstandard2.0\
 C:\Users\lx182\source\repos\AspEfCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.AssemblyInfo.cs
 C:\Users\lx182\source\repos\AspEfCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.dll
 C:\Users\lx182\source\repos\AspEfCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.pdb
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\bin\Debug\netstandard2.0\AspEfCore.Domain.deps.json
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\bin\Debug\netstandard2.0\AspEfCore.Domain.dll
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\bin\Debug\netstandard2.0\AspEfCore.Domain.pdb
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.csprojAssemblyReference.cache
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.AssemblyInfoInputs.cache
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.AssemblyInfo.cs
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.dll
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Domain\obj\Debug\netstandard2.0\AspEfCore.Domain.pdb

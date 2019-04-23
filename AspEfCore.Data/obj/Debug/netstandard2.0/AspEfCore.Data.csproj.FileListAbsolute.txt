@@ -10,3 +10,15 @@ C:\Users\lx182\source\repos\AspEfCore\AspEfCore.Data\bin\Debug\netstandard2.0\As
 C:\Users\lx182\source\repos\AspEfCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.csproj.CopyComplete
 C:\Users\lx182\source\repos\AspEfCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.dll
 C:\Users\lx182\source\repos\AspEfCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.pdb
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\bin\Debug\netstandard2.0\AspEfCore.Data.deps.json
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\bin\Debug\netstandard2.0\AspEfCore.Data.dll
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\bin\Debug\netstandard2.0\AspEfCore.Data.pdb
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\bin\Debug\netstandard2.0\AspEfCore.Domain.dll
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\bin\Debug\netstandard2.0\AspEfCore.Domain.pdb
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.csprojAssemblyReference.cache
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.csproj.CoreCompileInputs.cache
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.AssemblyInfoInputs.cache
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.AssemblyInfo.cs
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.csproj.CopyComplete
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.dll
+C:\Users\lx182\Documents\StudioNetCore\AspEfCore.Data\obj\Debug\netstandard2.0\AspEfCore.Data.pdb

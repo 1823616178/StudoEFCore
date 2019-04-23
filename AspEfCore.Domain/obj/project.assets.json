@@ -180,23 +180,26 @@
   },
   "packageFolders": {
     "C:\\Users\\lx182\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj",
       "projectName": "AspEfCore.Domain",
-      "projectPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj",
+      "projectPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj",
       "packagesPath": "C:\\Users\\lx182\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\obj\\",
+      "outputPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\lx182\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

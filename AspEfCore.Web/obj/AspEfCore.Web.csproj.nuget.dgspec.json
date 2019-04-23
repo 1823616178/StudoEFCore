@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Web\\AspEfCore.Web.csproj": {}
+    "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Web\\AspEfCore.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Data\\AspEfCore.Data.csproj": {
+    "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Data\\AspEfCore.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Data\\AspEfCore.Data.csproj",
+        "projectUniqueName": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Data\\AspEfCore.Data.csproj",
         "projectName": "AspEfCore.Data",
-        "projectPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Data\\AspEfCore.Data.csproj",
+        "projectPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Data\\AspEfCore.Data.csproj",
         "packagesPath": "C:\\Users\\lx182\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Data\\obj\\",
+        "outputPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\lx182\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -30,8 +32,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj": {
-                "projectPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj"
+              "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj": {
+                "projectPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj"
               }
             }
           }
@@ -76,21 +78,23 @@
         }
       }
     },
-    "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj": {
+    "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj",
         "projectName": "AspEfCore.Domain",
-        "projectPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj",
+        "projectPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\AspEfCore.Domain.csproj",
         "packagesPath": "C:\\Users\\lx182\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Domain\\obj\\",
+        "outputPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\lx182\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -128,21 +132,23 @@
         }
       }
     },
-    "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Web\\AspEfCore.Web.csproj": {
+    "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Web\\AspEfCore.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Web\\AspEfCore.Web.csproj",
+        "projectUniqueName": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Web\\AspEfCore.Web.csproj",
         "projectName": "AspEfCore.Web",
-        "projectPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Web\\AspEfCore.Web.csproj",
+        "projectPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Web\\AspEfCore.Web.csproj",
         "packagesPath": "C:\\Users\\lx182\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Web\\obj\\",
+        "outputPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\lx182\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -154,8 +160,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Data\\AspEfCore.Data.csproj": {
-                "projectPath": "C:\\Users\\lx182\\source\\repos\\AspEfCore\\AspEfCore.Data\\AspEfCore.Data.csproj"
+              "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Data\\AspEfCore.Data.csproj": {
+                "projectPath": "C:\\Users\\lx182\\Documents\\StudioNetCore\\AspEfCore.Data\\AspEfCore.Data.csproj"
               }
             }
           }
@@ -170,10 +176,8 @@
         "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
@@ -185,6 +189,14 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             }
           },
           "imports": [

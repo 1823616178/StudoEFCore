@@ -10,13 +10,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Pomelo.EntityFrameworkCore.MySql;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace AspEfCore.Web
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 
         public Startup(IConfiguration configuration)
         {
@@ -31,13 +31,16 @@ namespace AspEfCore.Web
                 option.CheckConsentNeeded = context => true;
             });
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_2);
-            services.AddDbContext<MyContext>(
+            services.AddDbContextPool<MyContext>(
                 option => {
-                    option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+                    option.UseMySql("Server=118.24.131.216;Database=MyEFCore;User=sun;Password=550312171;",
+                         mySqlOptions =>
+                         {
+                             mySqlOptions.ServerVersion(new Version(5, 7, 25), ServerType.MySql); // replace with your Server Version and Type
+                         });
                 }); 
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())

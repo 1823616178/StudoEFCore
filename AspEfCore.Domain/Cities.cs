@@ -12,5 +12,8 @@ namespace AspEfCore.Domain
 
         public int ProvinceId { get; set; }
         public Province Province { get; set; }
+
+        public List<CitiesProvince> CitiesProvinces { set; get; }
+        public Mayor Mayor { get; set; }
     }
 }

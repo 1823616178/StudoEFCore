@@ -16,5 +16,7 @@ namespace AspEfCore.Domain
         public int Population { get; set; }
 
         public List<Cities> Citieses { get; set; }
+
+        public List<CitiesProvince> CitiesProvinces { get; set; }
     }
 }

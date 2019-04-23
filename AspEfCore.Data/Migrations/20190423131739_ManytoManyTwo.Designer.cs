@@ -3,14 +3,16 @@ using System;
 using AspEfCore.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AspEfCore.Data.Migrations
 {
     [DbContext(typeof(MyContext))]
-    partial class MyContextModelSnapshot : ModelSnapshot
+    [Migration("20190423131739_ManytoManyTwo")]
+    partial class ManytoManyTwo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,15 +26,11 @@ namespace AspEfCore.Data.Migrations
 
                     b.Property<string>("AreaCode");
 
-                    b.Property<int?>("MayorId");
-
                     b.Property<string>("Name");
 
                     b.Property<int>("ProvinceId");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("MayorId");
 
                     b.HasIndex("ProvinceId");
 
@@ -70,26 +68,6 @@ namespace AspEfCore.Data.Migrations
                     b.ToTable("companies");
                 });
 
-            modelBuilder.Entity("AspEfCore.Domain.Mayor", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<DateTime>("BirthDay");
-
-                    b.Property<int>("CityId");
-
-                    b.Property<string>("FirstName");
-
-                    b.Property<int>("Gender");
-
-                    b.Property<string>("LastName");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("mayors");
-                });
-
             modelBuilder.Entity("AspEfCore.Domain.Province", b =>
                 {
                     b.Property<int>("Id")
@@ -106,10 +84,6 @@ namespace AspEfCore.Data.Migrations
 
             modelBuilder.Entity("AspEfCore.Domain.Cities", b =>
                 {
-                    b.HasOne("AspEfCore.Domain.Mayor", "Mayor")
-                        .WithMany()
-                        .HasForeignKey("MayorId");
-
                     b.HasOne("AspEfCore.Domain.Province", "Province")
                         .WithMany("Citieses")
                         .HasForeignKey("ProvinceId")
