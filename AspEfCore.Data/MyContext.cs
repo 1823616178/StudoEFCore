@@ -9,6 +9,10 @@ namespace AspEfCore.Data
     {
         public MyContext(DbContextOptions<MyContext> options) : base(options) { }
 
+        public MyContext()
+        {
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CitiesProvince>()

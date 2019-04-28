@@ -33,6 +33,7 @@ namespace AspEfCore.Web
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_2);
             services.AddDbContextPool<MyContext>(
                 option => {
+                    option.EnableSensitiveDataLogging(true);
                     option.UseMySql("Server=118.24.131.216;Database=MyEFCore;User=sun;Password=550312171;",
                          mySqlOptions =>
                          {
